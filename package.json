@@ -1,0 +1,24 @@
+{
+  "name": "decentralized-swap-platform",
+  "version": "1.0.0",
+  "description": "A decentralized swapping platform on BNB Chain with referral system",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network bsc",
+    "deploy:testnet": "npx hardhat run scripts/deploy.js --network bscTestnet"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.17.0"
+  }
+} 

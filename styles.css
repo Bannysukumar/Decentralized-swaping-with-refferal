@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.navbar {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+    border-color: #80bdff;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+#estimatedTokens {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+#rewardsList {
+    font-size: 0.95em;
+}
+
+#referralLink {
+    font-size: 0.9em;
+    background-color: #f8f9fa;
+}
+
+.input-group .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card-body {
+        padding: 15px;
+    }
+} 
