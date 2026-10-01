@@ -218,4 +218,14 @@ MIT License - See [LICENSE](LICENSE) file for details
 - GitHub Issues
 - Documentation
 - Community Discord
-- Email Support 
+- Email Support
+
+<!-- readme-seo: bannysukumar -->
+
+## Open source
+
+This repository is open source and maintained by [Banny Sukumar](https://github.com/Bannysukumar). Decentralized Swaping With Refferal is published so other developers can study the code and contribute.
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar. See [CONTRIBUTING.md](CONTRIBUTING.md) if you want to help.
